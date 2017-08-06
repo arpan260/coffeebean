@@ -14,9 +14,12 @@
     <![endif]-->
   <!-- Custom Css -->
   <link href="css/main.css" rel="stylesheet">
+<!--<link rel="stylesheet" href="css/navbar-fixed.css">-->
+   
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
+    
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -24,15 +27,19 @@
       </div><!-- Collect the nav links, forms, and other content for toggling -->
              
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
         <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#">Our coffee</a>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">Our coffee</a>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">About</a>
           </li>
-          <li>
-            <a href="#">Reviews</a>
+          <li class="nav-item">
+            <a  class="nav-link" href="#section2">Reviews</a>
+          </li>
+           <li class="nav-item">
+            <a  class="nav-link" href="#section3">contact</a>
           </li>
           
           <li><img class="fontypng" src="images/fonty.png"></a></li>
@@ -43,150 +50,177 @@
 
   <div class="clearfix"></div>
 
-  <!-- container-fluid Begin -->
+
+  <!-- container-fluid-->
   <div class="container-fluid">
-    <!-- Jumbotron Image Row Begin-->
+    <!-- Jumbotron Image Row -->
+
     <div class="row">
-      <div class="col-sm-6 ">
-        
-        <div class="row">
-        <img alt="Responsive image" class="img-responsive jumbotron-img" src="images/jumbotron.jpg">
-      </div>
-    
-     </div>
-      <div class="col-sm-6 ">
-        
-        <div class="row">
-         <img alt="Responsive image" class="img-responsive jumbotron-img" src="images/freshly_roasted.jpg">
+       <div class="col-sm-6 "> 
+         <div class="row"> 
+         <img alt="Responsive image" class="img-responsive jumbotron-img" src="images/jumbotron.jpg">
+         </div>
        </div>
-     
-      </div>
-    </div>
-    </div> 
-    <!-- Jumbotron Image Row End--> 
 
-
-    <!-- Cofee Introduction Row--> 
-    <div class="row introduction">
-      <div class="col-sm-10 col-sm-offset-1">
-        <div class="col-xs-12 col-sm-6"><img alt="Responsive image" class="img-responsive img-circle center-block" src="images/coffee_bean_jpg.jpg"></div>
-        <div class="col-xs-12 col-sm-6">
-          <h1 class="introduction-h1 text-center">Our Coffee</h1>
-          <hr class="introduction-underline">
-          <div class="col-xs-10 col-xs-offset-1 col-sm-12">
-          <p class="introduction-p">Saving money - is something we would all like to do. Whether you are struggling to manage day to day or earning a six figure salary. saving is something we all think about. There is one thing we call all save on.The one thing we all do, every day, several times a day. The one thing we all do, every day, several times a day.</p></div>
+       <div class="col-sm-6 ">
+         <div class="row">
+          <img alt="Responsive image" class="img-responsive jumbotron-img" src="images/freshly_roasted.jpg">
         </div>
-      </div>
-    </div>
+       </div>
+
+    
+    </div> <!-- Jumbotron Image Row End--> 
+  
+
+
     <!-- Cofee Introduction Row--> 
+    <div class="row introduction" id="about">
+      
+      <div class="col-sm-10 col-sm-offset-1">
+         <div class="col-xs-12 col-sm-6">
+           <img alt="Responsive image" class="img-responsive img-circle center-block" src="images/coffee_bean_jpg.jpg">
+         </div>
+
+        <div class="col-xs-12 col-sm-6">
+           <h1 class="introduction-h1 text-center">Our Coffee</h1>
+           <hr class="introduction-underline">
+             <div class="col-xs-10 col-xs-offset-1 col-sm-12">
+             <p class="introduction-p">Saving money - is something we would all like to do. Whether you are struggling to manage day to day or earning a six figure salary. saving is something we all think about. There is one thing we call all save on.The one thing we all do, every day, several times a day. The one thing we all do, every day, several times a day.
+             </p>
+             </div>
+         </div>
+
+      </div>
+    </div><!-- Cofee Introduction Row--> 
+    
 
     <!-- Cofee Section Row--> 
-    <div class="row section">
-      <div class="col-xs-12 col-sm-6 section-img-col">
-        
-           <img alt="Responsive image" class="img-responsive coffee-image center-block" src="images/coffee1.jpg">
-          
-      </div>
+    <div class="row section" id="section1">
+
+        <div class="col-xs-12 col-sm-6 section-img-col">
+            <div class="row">
+            <img alt="Responsive image" class="img-responsive coffee-image center-block" src="images/coffee1.jpg">
+            </div>  
+        </div>
+
       <div class="col-xs-12  col-sm-5 section-detail">
-
-
-         <div class="col-xs-10 col-xs-offset-1 col-sm-12">
-        <br><br>
-         <hr class="section-underline">
-         <h1 class="section-h1">Freshly Roasted<br>Freshly made</h1>
+      <div class="col-xs-10 col-xs-offset-1 col-sm-12">
+          <br><br>
+          <hr class="section-underline">
+          <h1 class="section-h1">Freshly Roasted<br>Freshly made</h1>
            <p class="section-p">Our coffee is not only defined by its flavor notes, but by the shared experiences that it fuels.
             We invite you to share in our coffee ritual and cultivate friendship within our cafe, outfitted with distinctive European flair.
             <br><br>
             Our greatest passions in life are fragrant espressos and decadent baked goods, and we’ve had enough with high-quality coffee places that offer lackluster, outsourced pastries, and high-end bakeries that offer burnt, sub-par brews. So we decided to do something about it.
- 
           </p>
+
            <div class="col-sm-12 svg-col">
-              <div class=" col-sm-12 col-xs-12"><img class="img-responsive section-img" src="svg/coffee-cup1.svg"></div>
-               <div class="col-sm-6 col-xs-12"><img class="img-responsive section-img" src="svg/coffee-cup2.svg"></div>
-                <div class="col-sm-6 col-xs-12 "><img class="img-responsive section-img" src="svg/coffee-cup3.svg"></div>
+             <div class=" col-sm-12 col-xs-12">
+                <img class="img-responsive section-img" src="svg/coffee-cup1.svg">
+              </div>
+              <div class="col-sm-6 col-xs-12">
+                <img class="img-responsive section-img" src="svg/coffee-cup2.svg">
+              </div>
+                <div class="col-sm-6 col-xs-12 ">
+                  <img class="img-responsive section-img" src="svg/coffee-cup3.svg">
+                </div>
             </div>
-            </div>
+
       </div>
-    </div>
+      </div>
+
+    </div><!-- Cofee Section Row--> 
 
 
-<!-- Cofee Section Row--> 
+
 
 
 <!-- Review Section Row--> 
-    <div class="row review">
+    <div class="row review" id="section2">
+
       <div class="col-xs-12 col-sm-3 col-sm-push-2 top-svg" >
         <img alt="Responsive image" class="img-responsive svg-girl center-block"  src="svg/girl.svg">
       </div>
-      <div class="col-xs-12 col-sm-5 col-sm-push-2" >
 
-        <div class="col-xs-10 col-xs-offset-1 col-sm-12">
+      <div class="col-xs-12 col-sm-5 col-sm-push-2" >
+         <div class="col-xs-10 col-xs-offset-1 col-sm-12">
         <br><br>
          <h1 class="review-h1 text-center">user stories</h1>
           <hr class="review-underline">
            <p class="review-p text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing
             elit.Aenean commodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis
             dis parturient montes, nascetur ridiculus.<br> -ammus</p>
-          </div>
-          
-      </div>
-    </div>
+         </div>   
+       </div>
 
-
-<!-- Review Section Row--> 
+    </div><!-- Review Section Row--> 
 
 
 
 
-<!-- Contact Section Row--> 
-    <div class="row contact">
+
+
+
+     <!-- Contact Section Row--> 
+    <div class="row contact" id="section3">
+
        <div class="col-xs-12 col-sm-6">
-         <img alt="Responsive image" class="img-responsive map center-block" src="images/map.png">   
+         <div class="row">
+         <img alt="Responsive image" class="img-responsive map center-block" src="images/map.png">
+         </div>   
        </div>
+
        <div class="col-xs-12 col-sm-6 contact-detail">
-
-        <div class="col-xs-10 col-xs-offset-1 col-sm-12">
-        <br><br>
-         <hr class="contact-underline">
-         <h1 class="contact-h1">Find us here</h1>
-         <div class="col-xs-12 col-sm-10">
-          <form class="contact-form">
-  
-  <div class="form-group">
-    <label for="exampleInputName">Name</label>
-    <input type="Name" class="form-control" id="exampleInputName" placeholder="Name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-  <label for="exampleInputEmail1">Your message</label>
-  <textarea class="form-control" rows="3"></textarea><br>
-</div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-         </div>
+       <div class="col-xs-10 col-xs-offset-1 col-sm-12 divider-col">
+          <br><br>
+          <hr class="contact-underline">
+          <h1 class="contact-h1">Find us here</h1>
+          <div class="col-xs-12 col-sm-10">
+            <form class="contact-form">
+               <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                       <input type="Name" class="form-control" id="exampleInputName" placeholder="Name">
+                  </div>
+                      <div class="form-group">
+                         <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                      </div>
+                         <div class="form-group">
+                             <label for="exampleInputEmail1">Your message</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                                <br>
+                           </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+           </div>
        </div>
        </div>
 
-      </div>
+      </div><!-- Contact Section Row--> 
     
 
 
 
-<!-- Contact Section Row--> 
+
 
 
 
 
   </div><!-- /.container-fluid End -->
 
-  <div class="height"></div>
+
+  <div class="height">
+    <footer class="text-center">
+ <small>&copy; Copyright 2058, Example Corporation</small>
+</footer>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
   </script> <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   </script>
+   <script src="js/parallax.min.js">
+  </script>
+    <script src="js/navbar-fixed.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
