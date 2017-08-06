@@ -3,6 +3,16 @@
   
      /** prevent appearing scrollbottom bar**/
  body{overflow-x:hidden; padding-top: 75px; }
+@font-face {
+	font-family: 'MedulaOne-Regular';
+	src: url('fonts/medula_one');
+	src: local('MedulaOne-Regular'), local('MedulaOne-Regular'), url('fonts/MedulaOne-Regular.ttf') format('OFL.txt');
+}
+ @font-face {
+	font-family: 'Abel-Regular';
+	src: url('fonts/abel');
+	src: local('Abel-Regular'), local('Abel-Regular'), url('fonts/abel-Regular.ttf') format('OFL.txt');
+}
 
  /*****Nav wrapper********/
 span.menu{font-family: "MedulaOne-Regular";font-size:large;}
